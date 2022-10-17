@@ -167,6 +167,8 @@ class RubiksChange
     rotationAngle = angle;
   }
   
+  // q from 0 to 1
+  // u is the position of the cube that could be affected by the change
   PVector angleChanges(PVector u, float q)
   {
     PVector diff = new PVector(0,0,0);
@@ -184,6 +186,8 @@ class RubiksChange
     }
     return diff;
   }
+  // types 2, 5 and 8 are the "double rotations"
+  
   
   PVector applyRotation(PVector u, float q)
   {
