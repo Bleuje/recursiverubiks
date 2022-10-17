@@ -407,7 +407,7 @@ class RubiksCube
     rect(0,0,l,l);
     
     push();
-    translate(0,0,1.5);
+    translate(0,0,1.5); // little bump idea
     strokeWeight(ss.strW);
     stroke(ss.strokeColor);
     fill(ss.fill?255:0);
@@ -501,7 +501,7 @@ class RubiksCube
     base2 = applyDiffRot(base2,diffRot);
     base3 = applyDiffRot(base3,diffRot);
     
-    // looking for 2D rotations from orthonormal base change ...
+    // looking for 2D rotations from orthonormal basis change ...
     // https://math.stackexchange.com/questions/3690075/computing-a-3d-rotation-matrix-aligning-1-orthonormal-basis-to-another
     // https://nghiaho.com/?page_id=846
     
