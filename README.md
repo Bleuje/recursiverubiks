@@ -1,6 +1,5 @@
 ## recursive-rubiks-cube
 
-Processing source code for this animation :
-(commented)
+Processing commented source code for this animation :
 
 ![image](recursive-rubiks-optimized.gif)
