@@ -1,4 +1,4 @@
-## recursive-rubiks-cube
+## Recursive Rubik's cube
 
 Processing commented source code for this animation :
 
