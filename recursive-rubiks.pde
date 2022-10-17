@@ -259,8 +259,8 @@ PVector applyDiffRot(PVector u,PVector diffRot)
 class SquareStyle
 {
   // some of these are unused, keeping all of it to have same results
-  float dummy = random(1); // just to get different random values, keeping the main seed
-  float dummy2 = random(1); // just to get different random values, keeping the main seed
+  float dummy = random(1); // just to play on random values while keeping the main seed
+  float dummy2 = random(1); // just to play on random values while keeping the main seed
   float strW = random(0.75,1.15);
   float fsquare = random(0.1,0.7);
   float strokeColor = random(120,280)*0+255;
@@ -584,7 +584,7 @@ void draw_(){
   
   for(int i=0;i<n;i++)
   {
-    array[i].show(ease(t,1.0)); // no easing but it's a possibillity
+    array[i].show(ease(t,1.0)); // no easing but it's a possibility
   }
 
   pop();
