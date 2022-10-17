@@ -224,8 +224,11 @@ ArrayList<RubiksChange> generate2x2x2RandomRChangeSequence(int nChanges)
 
     RubiksChange ch = new RubiksChange(0,(random(1)<0.5?-HALF_PI:HALF_PI));
     boolean ok = false;
+    
+    // while loop to avoid successive similar changes (find a good change when compared to previous one)
     while(!ok)
     {
+      // decision to avoid double rotations for second level changes, not sure why
       int typeChoice = floor(random(6));
       int category = typeChoice/2;
       int orientation = typeChoice%2;
