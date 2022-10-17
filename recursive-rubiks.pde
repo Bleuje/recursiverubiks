@@ -377,6 +377,7 @@ class RubiksCube
     }
   }
   
+  // recursive square style assignment to match the permutation at the end of the loop
   void assign(SquareStyle ss_)
   {
     ss = ss_;
@@ -582,7 +583,7 @@ void draw_(){
   push();
   translate(width/2,height/2);
   
-  rotateX(-0.393*HALF_PI); // (lol too lazy to od the maths)
+  rotateX(-0.393*HALF_PI); // (lol too lazy to do the maths)
   rotateY(0.5*HALF_PI);
   
   for(int i=0;i<n;i++)
