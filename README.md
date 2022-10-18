@@ -2,4 +2,8 @@
 
 Processing commented source code for this animation :
 
-![image](recursive-rubiks-optimized.gif)
+![gif image](recursive-rubiks-optimized.gif)
+
+Alternative version :
+
+![gif image](rubiks-tumblr-version.gif)
